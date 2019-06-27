@@ -2,6 +2,7 @@ import React, { PureComponent } from "react";
 // Components
 import { List, Accordion, Icon, Header } from "semantic-ui-react";
 import FileListItem from "../../components/FileListItem";
+import CommitMessageInput from "../../components/CommitMessageInput";
 // Utils
 import {
   getTrackedFiles,
@@ -11,7 +12,6 @@ import {
 } from "./utils";
 // Styles
 import styles from "./styles.scss";
-import CommitMessageInput from "../../components/CommitMessageInput";
 
 const defaultFiles = [
   {
@@ -156,6 +156,13 @@ class VersionControl extends PureComponent {
                       {files.length} files changed
                     </List.Description>
                   </List.Content>
+                  <List.Icon
+                    name="circle"
+                    className={styles.restore__button}
+                    verticalAlign="middle"
+                  >
+                    Restore
+                  </List.Icon>
                 </List.Item>
               );
             })}
