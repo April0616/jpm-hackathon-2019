@@ -33,7 +33,6 @@ const PageHome = () => (
         -d process.py. Usually, each dependency
         is a file or a directory with data, or a code file, or a
         configuration file. DVC also supports certain external dependencies</p>
-
     </div>
   </div>
 );
