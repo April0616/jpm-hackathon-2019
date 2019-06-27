@@ -6,9 +6,7 @@ import OptionModal from "../Modal";
 const RunTabOptionCard = props => {
   const { name, desc } = props;
   return (
-    <div>
       <OptionModal name={name} desc={desc} />
-    </div>
   );
 };
 

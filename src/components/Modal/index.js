@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Header, Modal } from "semantic-ui-react";
+import { Icon, Header, Modal } from "semantic-ui-react";
 import PropTypes from "prop-types";
 
 import styles from "./styles.scss";
@@ -7,7 +7,7 @@ import styles from "./styles.scss";
 const OptionModal = props => {
   const { title, desc } = props;
   return (
-    <Modal trigger={<Button>More Information</Button>}>
+    <Modal trigger={<Icon name='help' style={{marginLeft: 8}}/>}>
       <Modal.Header>Description</Modal.Header>
       <Modal.Content image>
         <Modal.Description>
