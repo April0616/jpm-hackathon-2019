@@ -3,9 +3,9 @@ import * as styles from "./style.scss";
 
 const PageHome = () => (
   <div className={styles.appContainer}>
-    <div className={styles.welcomeHeader}>Hello, World!</div>
+    <div className={styles.welcomeHeader}>UI For Machine Learning!</div>
     <div className={styles.welcomeMessage}>
-      This is your React App. Congratulations on setting it up!
+      Minion has spawned!
     </div>
     <div className={styles.welcomeMessage.concat(" ").concat(styles.emoji)}>
       🚀
