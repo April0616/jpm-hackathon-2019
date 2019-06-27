@@ -1,0 +1,29 @@
+.versionControl {
+  &__container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  &__overview,
+  &__commit {
+    padding: 24px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    overflow-y: auto;
+  }
+
+  &__overview {
+    flex: 1;
+  }
+
+  &__commit {
+    flex: 0 0 400px;
+  }
+}
